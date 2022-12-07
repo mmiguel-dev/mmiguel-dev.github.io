@@ -1,0 +1,153 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.cabecera{
+	display: flex;
+	background: #1E2425;
+	justify-content: space-between;
+	color: #FF4F61;
+	align-items: center;
+	height: 100px;
+}
+h1{
+  padding-left: 80px;
+}
+h2{
+	font-size: 43px;
+	color: #FF4F61;
+}
+li{
+	list-style: none;
+	display: inline;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+a{
+	text-decoration: none;
+	color: #FF4F61;
+}
+a:hover{
+	color: #008CBA;
+}
+li a{
+	padding: 10px 10px;
+}
+main{
+	background: #F1F1F1;
+}
+.introduccion{
+	height: 500px;
+	display: flex;
+	justify-content: space-between;
+}
+.sobre-mi{
+	display: flex;
+	flex-direction: column;
+	padding: 90px 80px;
+}
+.sobre-mi h3 {
+	padding-top: 30px;
+}
+.avatar{
+	width: 570px;
+	height: 451px;
+	border-radius: 10px;
+	object-fit: cover;
+	margin: 53px 100px 16px 50px;
+
+}
+.habilidades{
+	height: 600px;
+	padding-top: 80px;
+	background: #F1F1F1;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+.habilidades h3{
+	text-align: center;
+}
+.conocimientos{
+	width: 100%;
+	height: 200px;
+	padding-top: 90px;
+	display: flex;
+	justify-content:space-evenly;
+}
+.create{
+	text-align: center;
+}
+.experiencia{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+h2{
+	margin-top: 90px;
+}
+h3{
+	margin-top: 50px;
+}
+.btn{
+	margin-top: 50px;
+	background: #FF4F61;
+	border-radius: 100px;
+	width: 200px;
+	height: 50px;
+	border: none;
+}
+.btn:hover{
+	background-color: #555555;
+	color:white;
+	cursor: pointer;
+}
+.trabajos{
+	padding-top: 60px;
+	display: flex;
+	justify-content: space-evenly;
+}
+.fondo-trabajos{
+	height: 240px;
+	width: 370px;
+	border-radius: 10px;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+.footer{
+	padding-top: 50px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.social-media{
+	display: flex;
+}
+
+span{
+	display: block;
+	font-family: monospace;
+	white-space: nowrap;
+	border-right: 4px solid;
+	width: 40ch;
+	animation: typing 2s steps(40), blink .5s step-end alternate;
+	overflow: hidden;
+}
+
+@keyframes typing{
+	from { width:0 }
+}
+@keyframes blink{
+	50% { border-color: transparent }
+}
+
